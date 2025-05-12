@@ -1,0 +1,537 @@
+[
+  {
+    "code": "id",
+    "name": "Идентификатор резюме на Портале",
+    "type": "timeuuid",
+    "example": "08b23f30-3eb7-11ed-be3b-f5407cdefa62"
+  },
+  {
+    "code": "stateRegionCode",
+    "name": "Код федерального региона",
+    "type": "varchar",
+    "example": "https://rtopendata.show.pbs.bftcom.com/7710538364-regions/regions.xml#9900000000000"
+  },
+  {
+    "code": "locality",
+    "name": "Код населенного пункта",
+    "type": "varchar",
+    "example": "4000000100000"
+  },
+  {
+    "code": "localityName",
+    "name": "Наименование населенного пункта",
+    "type": "varchar",
+    "example": "Калужская область, г. Калуга"
+  },
+  {
+    "code": "birthday",
+    "name": "Дата рождения",
+    "type": "date",
+    "example": "2018-11-30"
+  },
+  {
+    "code": "age",
+    "name": "Возраст",
+    "type": "int",
+    "example": "25"
+  },
+  {
+    "code": "gender",
+    "name": "Пол",
+    "type": "varchar",
+    "example": "Мужской"
+  },
+  {
+    "code": "positionName",
+    "name": "Наименование резюме",
+    "type": "varchar",
+    "example": "Воспитатель"
+  },
+  {
+    "code": "dateCreate",
+    "name": "Дата создания",
+    "type": "date",
+    "example": "2022-12-01T14:54:42+0000"
+  },
+  {
+    "code": "dateModify",
+    "name": "Дата изменения",
+    "type": "date",
+    "example": "2022-12-01T14:54:42+0000"
+  },
+  {
+    "code": "publishedDate",
+    "name": "Дата публикации",
+    "type": "date",
+    "example": "2022-12-01T14:54:42+0000"
+  },
+  {
+    "code": "academicDegree",
+    "name": "Ученая степень",
+    "type": "varchar",
+    "example": "Кандидат наук"
+  },
+  {
+    "code": "worldskills",
+    "name": "Информация о компетенции Worldskills"
+  },
+  {
+    "code": "Worldskills",
+    "name": "Компетенции Worldskills"
+  },
+  {
+    "code": "type",
+    "name": "Тип",
+    "type": "varchar",
+    "example": "Participation"
+  },
+  {
+    "code": "russianName",
+    "name": "Наименование компетенции на русском",
+    "type": "varchar",
+    "example": "Дизайн"
+  },
+  {
+    "code": "internationalName",
+    "name": "Наименование компетенции на английском",
+    "type": "varchar",
+    "example": "Design"
+  },
+  {
+    "code": "isInternational",
+    "name": "Является компетенция международной (WSR)",
+    "type": "boolean",
+    "example": "true"
+  },
+  {
+    "code": "skillAbbreviation",
+    "name": "Номер компетенции",
+    "type": "varchar",
+    "example": "T29"
+  },
+  {
+    "code": "worldskillsInspectionStatus",
+    "name": "Статус подтверждения участия в чемпионате WordSkills",
+    "type": "varchar",
+    "example": "Участие в чемпионате WordSkills подтверждено"
+  },
+  {
+    "code": "сompetitions",
+    "name": "Компетенции"
+  },
+  {
+    "code": "abilympics",
+    "name": "Международное движение Абилимпикс"
+  },
+  {
+    "code": "abilympicsParticipation",
+    "name": "Признак участия в движении Абилимпикc",
+    "type": "boolean",
+    "example": "true"
+  },
+  {
+    "code": "abilympicsInspectionStatus",
+    "name": "Статус подтверждения участия в движении Абилимпикc",
+    "type": "varchar",
+    "example": "Участие в движении Абилимпикc подтверждено"
+  },
+  {
+    "code": "driveLicenses",
+    "name": "Водительские права",
+    "type": "varchar",
+    "example": "A"
+  },
+  {
+    "code": "volunteers",
+    "name": "Участие в движении DOBRO.RU"
+  },
+  {
+    "code": "volunteers",
+    "name": "Движение DOBRO.RU"
+  },
+  {
+    "code": "volunteersParticipation",
+    "name": "Признак участия в движении DOBRO.RU",
+    "type": "boolean",
+    "example": "true"
+  },
+  {
+    "code": "volunteersInspectionStatus",
+    "name": "Статус участия в движении DOBRO.RU",
+    "type": "varchar",
+    "example": "Участие в движении DOBRO.RU подтверждено"
+  },
+  {
+    "code": "nark",
+    "name": "Проверка сертификата НАРК"
+  },
+  {
+    "code": "narkCertificate",
+    "name": "Флаг проверки сертификата национальным агентством развития квалификаций",
+    "type": "boolean",
+    "example": "true"
+  },
+  {
+    "code": "narkInspectionStatus",
+    "name": "Статус проверки квалификации НАРК",
+    "type": "varchar",
+    "example": "Получено свидетельство о независимой оценке квалификации"
+  },
+  {
+    "code": "experience",
+    "name": "Опыт работы",
+    "type": "int",
+    "example": "5"
+  },
+  {
+    "code": "workExperienceList",
+    "name": "Информация об опыте работы"
+  },
+  {
+    "code": "workExperience",
+    "name": "Опыт работы"
+  },
+  {
+    "code": "dateFrom",
+    "name": "Дата начала работы",
+    "type": "date",
+    "example": "2013-09-01"
+  },
+  {
+    "code": "dateTo",
+    "name": "Дата увольнения",
+    "type": "date",
+    "example": "2017-12-01"
+  },
+  {
+    "code": "companyName",
+    "name": "Название компании",
+    "type": "varchar",
+    "example": "МБДОУ  г.Калуги"
+  },
+  {
+    "code": "jobTitle",
+    "name": "Название должности",
+    "type": "varchar",
+    "example": "Воспитатель"
+  },
+  {
+    "code": "achievements",
+    "name": "Достижения",
+    "type": "varchar",
+    "example": "Улучшение производительности отдела на 15%"
+  },
+  {
+    "code": "type",
+    "name": "Тип записи",
+    "type": "varchar",
+    "example": "WorkExperience"
+  },
+  {
+    "code": "demands",
+    "name": "Должностные обязанности",
+    "type": "varchar",
+    "example": "Присмотр и уход за детьми дошкольного учреждения, обеспечивание строгое выполнение установленного режима дня и сетки занятий"
+  },
+  {
+    "code": "relevant",
+    "name": "Опыт является релевантным",
+    "type": "boolean",
+    "example": "true"
+},
+  {
+    "code": "professionList",
+    "name": "Профессиональная сфера"
+  },
+  {
+    "code": "type",
+    "name": "Тип",
+    "type": "varchar",
+    "example": "CandidateProfession"
+  },
+  {
+    "code": "codeProfessionalSphere",
+    "name": "Код сферы",
+    "type": "varchar",
+    "example": "Finances"
+  },
+  {
+    "code": "codeProfession",
+    "name": "Код профессии",
+    "type": "varchar",
+    "example": "233699"
+  },
+  {
+    "code": "educationList",
+    "name": "Информация об образовании"
+  },
+  {
+    "code": "education",
+    "name": "Образование"
+  },
+  {
+    "code": "type",
+    "name": "Вид образования",
+    "type": "varchar",
+    "example": "Education"
+  },
+  {
+    "code": "level",
+    "name": "Уровень образования",
+    "type": "varchar",
+    "example": "Среднее"
+  },
+  {
+    "code": "diplomaName",
+    "name": "Наименование диплома",
+    "type": "varchar",
+    "example": "Совершенствование контрольной работы в Межрайонной инспекции ФНС России №7 по Курганской области"
+  },
+  {
+    "code": "instituteName",
+    "name": "Название учебного заведения",
+    "type": "varchar",
+    "example": "БГТУ"
+  },
+  {
+    "code": "graduateYear",
+    "name": "Год окончания",
+    "type": "data",
+    "example": "2017-12-01"
+  },
+  {
+    "code": "faculty",
+    "name": "Факультет",
+    "type": "varchar",
+    "example": "Факультет физической культуры"
+  },
+  {
+    "code": "specialty",
+    "name": "Специальность",
+    "type": "varchar",
+    "example": "Учитель начальных классов"
+  },
+  {
+    "code": "qualification",
+    "name": "Квалификация",
+    "type": "varchar",
+    "example": "Экономист"
+},
+  {
+    "code": "otherCertificates",
+    "name": "Иные сертификаты соискателя",
+    "type": "varchar",
+    "example": "Справка об отсутствии судимости, сертификат COVID"
+  },
+  {
+    "code": "additionalEducationList",
+    "name": "Информация о прохождении курсов"
+  },
+  {
+    "code": "additionalEducation",
+    "name": "Дополнительное образование"
+  },
+  {
+    "code": "graduateYear",
+    "name": "Год окончания",
+    "type": "data",
+    "example": "2017-12-01"
+  },
+  {
+    "code": "type",
+    "name": "Тип",
+    "type": "varchar",
+    "example": "Course"
+  },
+  {
+    "code": "courseName",
+    "name": "Название курса",
+    "type": "varchar",
+    "example": "Курсы для педагогов"
+  },
+  {
+    "code": "hardSkills",
+    "name": "Профессиональные навыки"
+  },
+  {
+    "code": "hardSkill",
+    "name": "Профессиональные навыки"
+  },
+  {
+    "type": "varchar",
+    "example": "hardSkills"
+  },
+  {
+    "hardSkillName": "varchar",
+    "example": "знание нормативной документации по проектированию"
+  },
+  {
+    "code": "softskills",
+    "name": "Гибкие навыки"
+  },
+  {
+    "code": "softskill",
+    "name": "Гибкие навыки"
+  },
+  {
+    "type": "varchar",
+    "example": "softskills"
+  },
+  {
+    "softSkillName": "varchar",
+    "example": "Аккуратность"
+  },
+  {
+    "code": "codeExternalSystem",
+    "name": "Код внешней системы",
+    "type": "varchar",
+    "example": "CZN"
+  },
+  {
+    "code": "country",
+    "name": "Страна проживания"
+  },
+  {
+    "code": "countryName",
+    "name": "Название станы проживания",
+    "type": "varchar",
+    "example": "Российская Федерация"
+  },
+  {
+    "code": "countryCode",
+    "name": "Код страны",
+    "type": "varchar",
+    "example": "255"
+  },
+  {
+    "code": "scheduleType",
+    "name": "Желаемый график работы",
+    "type": "varchar",
+    "example": "Полный рабочий день"
+  },
+  {
+    "code": "salary",
+    "name": "Желаемая зарплата",
+    "type": "int",
+    "example": "22000"
+  },
+  {
+    "code": "desirableRelocationRegions",
+    "name": "Желаемые регионы переезда"
+  },
+  {
+    "code": "RelocationRegions",
+    "name": "Регион переезда"
+  },
+  {
+    "code": "regionCode",
+    "name": "Код региона",
+    "type": "varchar",
+    "example": "2400000000000"
+  },
+  {
+    "code": "type",
+    "name": "Тип",
+    "type": "varchar",
+    "example": "CandidateRelocation"
+  },
+  {
+    "code": "busyType",
+    "name": "Тип занятости",
+    "type": "varchar",
+    "example": "Полная занятость"
+  },
+  {
+    "code": "relocation",
+    "name": "Готовность к переезду",
+    "type": "varchar",
+    "example": "Нет"
+  },
+  {
+    "code": "languageKnowledge",
+    "name": "Знание иностранных языков"
+  },
+  {
+    "code": "languageKnowledge",
+    "name": "Знание иностранных языков"
+  },
+  {
+    "code": "codeLanguage",
+    "name": "Язык",
+    "type": "varchar",
+    "example": "Английский"
+  },
+  {
+    "code": "level",
+    "name": "Уровень владения",
+    "type": "varchar",
+    "example": "BASIC"
+  },
+  {
+    "code": "isPreferred",
+    "name": "Родной язык",
+    "type": "boolean",
+    "example": "false"
+  },
+  {
+    "code": "type",
+    "name": "Тип",
+    "type": "varchar",
+    "example": "LanguageKnowledge"
+  },
+
+  {
+    "code": "businessTrips",
+    "name": "Готовность к командировкам",
+    "type": "varchar",
+    "example": "Не готов к командировкам"
+  },
+  {
+    "code": "retrainingCapability",
+    "name": "Возможность переобучения",
+    "type": "varchar",
+    "example": "Готов к переобучению"
+  },
+  {
+    "code": "innerinfo",
+    "name": "Дополнительная информация"
+  },
+  {
+    "code": "idUser",
+    "name": "Код пользователя",
+    "type": "timeuuid",
+    "example": "a296d280-352a-11e5-abfd-1ff705945672"
+  },
+  {
+    "code": "rfCitizen",
+    "name": "Признак гражданства РФ",
+    "type": "boolean",
+    "example": "true"
+  },
+  {
+    "code": "visibility",
+    "name": "Видимость",
+    "type": "",
+    "example": "Видно всем"
+  },
+  {
+    "code": "dateModify",
+    "name": "Дата изменения",
+    "type": "date",
+    "example": "2020-03-26"
+  },
+  {
+    "code": "deleted",
+    "name": "Признак удаления",
+    "type": "boolean",
+    "example": "false"
+  },
+  {
+    "code": "fullnessRate",
+    "name": "Процент заполнения",
+    "type": "int",
+    "example": "76"
+  }
+
+
+]
