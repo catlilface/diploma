@@ -325,58 +325,58 @@
     "example": "Планирование и прогнозирование затрат предприятия."
   },
   {
-    "code":"geo",
-    "name":"Геопозиция"
+    "code": "geo",
+    "name": "Геопозиция"
   },
   {
-    "code":"longitude",
-    "name":"Географические координаты адреса_долгота",
-    "type":"decimal",
-    "example":"45.198009"
+    "code": "longitude",
+    "name": "Географические координаты адреса_долгота",
+    "type": "decimal",
+    "example": "45.198009"
   },
   {
-    "code":"latitude",
-    "name":"Географические координаты адреса_широта",
-    "type":"decimal",
-    "example":"37.163573"
+    "code": "latitude",
+    "name": "Географические координаты адреса_широта",
+    "type": "decimal",
+    "example": "37.163573"
   },
   {
     "code": "educationRequirements",
     "name": "Требования к образованию"
   },
   {
-    "code":"educationType",
-    "name":"Тип образования",
-    "type":"varchar",
-    "example":"Среднее"
+    "code": "educationType",
+    "name": "Тип образования",
+    "type": "varchar",
+    "example": "Среднее"
   },
   {
-    "code":"speciality",
-    "name":"Специальность по образованию",
-    "type":"varchar",
-    "example":"Лечебное дело"
+    "code": "speciality",
+    "name": "Специальность по образованию",
+    "type": "varchar",
+    "example": "Лечебное дело"
   },
   {
-    "code":"academicDegree",
-    "name":"Ученая степень",
-    "type":"varchar",
-    "example":"Кандидат наук"
+    "code": "academicDegree",
+    "name": "Ученая степень",
+    "type": "varchar",
+    "example": "Кандидат наук"
   },
   {
     "code": "premium",
     "name": "Премия"
   },
   {
-    "code":"premiumType",
-    "name":"Вид премии",
-    "type":"varchar",
-    "example":"Ежегодная премия"
+    "code": "premiumType",
+    "name": "Вид премии",
+    "type": "varchar",
+    "example": "Ежегодная премия"
   },
   {
-    "code":"premiumSize",
-    "name":"Размер премии",
-    "type":"int",
-    "example":"5000"
+    "code": "premiumSize",
+    "name": "Размер премии",
+    "type": "int",
+    "example": "5000"
   },
   {
     "code": "company",
@@ -483,55 +483,55 @@
     "name": "Знание языков"
   },
   {
-    "code":"codeLanguage",
-    "name":"Язык",
-    "type":"varchar",
-    "example":"Английский"
+    "code": "codeLanguage",
+    "name": "Язык",
+    "type": "varchar",
+    "example": "Английский"
   },
   {
-    "code":"isPreferred",
-    "name":"Признак предпочтения",
-    "type":"bool",
-    "example":"true"
+    "code": "isPreferred",
+    "name": "Признак предпочтения",
+    "type": "bool",
+    "example": "true"
   },
   {
-    "code":"level",
-    "name":"Уровень знания",
-    "type":"varchar",
-    "example":"Чтение и письмо со словарем"
+    "code": "level",
+    "name": "Уровень знания",
+    "type": "varchar",
+    "example": "Чтение и письмо со словарем"
   },
   {
-    "code":"additionalRequirements",
-    "name":"Дополнительные требования",
-    "type":"varchar",
-    "example":"Классное руководство"
+    "code": "additionalRequirements",
+    "name": "Дополнительные требования",
+    "type": "varchar",
+    "example": "Классное руководство"
   },
   {
-    "code":"responsibilities",
-    "name":"Должностные обязанности",
-    "type":"varchar",
-    "example":"Организация олимпиад, конференций, турниров математических и лингвистических игр в школе и др."
+    "code": "responsibilities",
+    "name": "Должностные обязанности",
+    "type": "varchar",
+    "example": "Организация олимпиад, конференций, турниров математических и лингвистических игр в школе и др."
   },
   {
-    "code":"addressCode",
-    "name":"Код адреса компании",
-    "type":"int",
-    "example":"27006000018000600"
+    "code": "addressCode",
+    "name": "Код адреса компании",
+    "type": "int",
+    "example": "27006000018000600"
   },
   {
     "code": "ContactList",
     "name": "Контактные данные"
   },
   {
-    "code":"contactType",
-    "name":"Тип контактных данных",
-    "type":"varchar",
-    "example":"PHONE, MOBILE, EMAIL, SKYPE, OTHER"
+    "code": "contactType",
+    "name": "Тип контактных данных",
+    "type": "varchar",
+    "example": "PHONE, MOBILE, EMAIL, SKYPE, OTHER"
   },
   {
-    "code":"type",
-    "name":"Тип",
-    "type":"varchar",
-    "example":"LanguageKnowledge"
+    "code": "type",
+    "name": "Тип",
+    "type": "varchar",
+    "example": "LanguageKnowledge"
   }
 ]
