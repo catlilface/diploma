@@ -2,3 +2,4 @@ __pycache__
 *.tar.gz
 *.csv
 *.parquet
+!data/ready/*.parquet
